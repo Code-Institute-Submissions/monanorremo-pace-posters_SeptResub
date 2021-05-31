@@ -1,0 +1,17 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "p101",
+            "name": "xx",
+            "description": "xx",
+            "price": 0.00,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "",
+            "image": ""
+        }
+    }
+
+]

@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from django.contrib.messages import constants as messages
-import dj_database_url
+#import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -46,18 +46,18 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     #'allauth.socialaccount',
-    'home',
+    #'home',
     'products',
-    'bag',
-    'checkout',
-    'profiles',
+    #'bag',
+    #'checkout',
+    #'profiles',
     'blog',
     
  
 
     # Other
-    'crispy_forms',
-    'storages',
+    #'crispy_forms',
+    #'storages',
 ]
 
 MIDDLEWARE = [
@@ -70,10 +70,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'paceposters.urls'
+ROOT_URLCONF = 'pace_posters.urls'
 
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+#CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 
 TEMPLATES = [
@@ -95,8 +95,8 @@ TEMPLATES = [
                 'bag.contexts.bag_contents',
             ],
             'builtins': [
-                'crispy_forms.templatetags.crispy_forms_tags',
-                'crispy_forms.templatetags.crispy_forms_field',
+                #'crispy_forms.templatetags.crispy_forms_tags',
+                #'crispy_forms.templatetags.crispy_forms_field',
             ]
         },
     },
@@ -136,7 +136,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
-WSGI_APPLICATION = 'paceposters.wsgi.application'
+#WSGI_APPLICATION = 'paceposters.wsgi.application'
 
 
 # Database
