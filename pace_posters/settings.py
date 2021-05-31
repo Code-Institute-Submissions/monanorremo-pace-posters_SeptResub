@@ -136,7 +136,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
-#WSGI_APPLICATION = 'paceposters.wsgi.application'
+WSGI_APPLICATION = 'paceposters.wsgi.application'
 
 
 # Database
