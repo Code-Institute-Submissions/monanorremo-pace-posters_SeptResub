@@ -45,12 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    #'allauth.socialaccount',
+    'allauth.socialaccount',
     'home',
     'products',
     'bag',
     'checkout',
-    #'profiles',
+    'profiles',
     'blog',
     
  
