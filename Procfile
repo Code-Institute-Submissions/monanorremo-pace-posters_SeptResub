@@ -1,0 +1,1 @@
+web: gunicorn pace_posters.wsgi:application
