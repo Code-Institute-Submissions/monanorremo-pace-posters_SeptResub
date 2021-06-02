@@ -52,9 +52,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'blog',
-    
  
-
     # Other
     'crispy_forms',
     'storages',
@@ -136,7 +134,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
-WSGI_APPLICATION = 'paceposters.wsgi.application'
+WSGI_APPLICATION = 'pace_posters.wsgi.application'
 
 
 # Database
