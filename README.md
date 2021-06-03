@@ -40,7 +40,7 @@ Posters are best bought from an e-commerce site, as a shopper you are at home an
 
 For the e-commerce site owner and staff the admin section will make it easy to update, add and delete products. The Django admin site makes it easy for the super user to get an overview of the site. products, details, registerred customers, what&#39;s trending on the set etc.
 
-###User-Stories
+### User-Stories
 
 As a shopper:
 
@@ -72,7 +72,7 @@ As a Store Owner:
 	3.	I want to be able to edit products.
 	4.	View shoppers shopping patterns.
 
-###Scope
+### Scope
 
 When designing the page, I wanted for the user to have a clear and positive experience and for the web-site to be easy to use. User can navigate through the navigation bar that is always visible on desktop and mobile and by links in the footer. They can go from any part of the web-site to any other part. Simple to navigate and intuitive.
 
@@ -91,11 +91,11 @@ All the icons used in this app are from the newly extended Bootsrtrap Icons, Sho
 
 Features Included:
 
-	•	Navbar included on all pages.
-	•	On the left side is the Pace Posters Logo, in desktop view.
-	•	On mobile view the menu is behind the hamburger icon where you easily click forward to all the different landing pages.
-	•	On desktop, you have the categories: All Products with subcategories:by Price, by Rating, by Category, All Products, Posters with subcategories: Animals, Architecture, Botanical &amp; Nature, Colourful, All Posters, Frames with subcategories: Picture Frames, Poster Hangers, All Frames, and Special Offers with subcategories: New Arrivals, Deals, Clearance, All Specials, centrally located on the navbar.
-	•	Search bar is centrally located on the top middle in the navbar so thet users can look up what they are looking for.
+• Navbar included on all pages.
+• On the left side is the Pace Posters Logo, in desktop view.
+• On mobile view the menu is behind the hamburger icon where you easily click forward to all the different landing pages.
+• On desktop, you have the categories: All Products with subcategories:by Price, by Rating, by Category, All Products, Posters with subcategories: Animals, Architecture, Botanical &amp; Nature, Colourful, All Posters, Frames with subcategories: Picture Frames, Poster Hangers, All Frames, and Special Offers with subcategories: New Arrivals, Deals, Clearance, All Specials, centrally located on the navbar.
+•	Search bar is centrally located on the top middle in the navbar so thet users can look up what they are looking for.
 	
 Based upon the strategy and research, some design features that I aim to include are:
 • Search bar for customers to search for an item that they are looking for.
@@ -108,7 +108,7 @@ Based upon the strategy and research, some design features that I aim to include
 • On each product page the ability to sort the products by name (A-Z), price (high to low), rating (high to low) or category (A-Z).
 
 
-###Structure
+### Structure
 
 The site will be structured in a linear grid format, which will match up nicely with the recurring rectangles of the posters and frames.
 
@@ -116,152 +116,152 @@ The site will have a similar layout to the websites Ive researched. With this th
 
 Keeping the layout consistent across all pages to keep a consistent and clean UX.
 
-**Database Schema**[here]read.me files/models.pdf
+**Database Schema**[here](read.me files/models.pdf
 
 
-###Skeleton
+### Skeleton
 
 Insert Wireframes
 
-###Surface 
+### Surface 
 
-####Existing Features
+#### Existing Features
 
 Navbar
 
-	⁃	All pages throughout have the navbar for shopper convenience.
-	⁃	Pace Posters logo on left side next to all products and shop by category link.
-	⁃	All products link will link to all products page.
-	⁃	Shop by category will be a full width dropdown with links to categories botanical&amp;nature, colourful, architecture, animals.
-	⁃	Search bar in centre of navbar which will allow customers to search for keywords found in product names or descriptions.
-	⁃	Right hand logos will feature links to my account pages and cart page.
-	⁃	My account when logged in as superuser will dropdown links to product admin, help admin, my profile and logout.
-	⁃	My account when logged in as user will dropdown links to my profile and logout.
-	⁃	My account when not logged in will dropdown links to register and login.
-	⁃	In tablet view or smaller, all links will be contained in a burger dropdown icon on the right side and the search bar will be below the navbar full width.
+⁃	All pages throughout have the navbar for shopper convenience.
+⁃	Pace Posters logo on left side next to all products and shop by category link.
+⁃	All products link will link to all products page.
+⁃	Shop by category will be a full width dropdown with links to categories botanical&amp;nature, colourful, architecture, animals.
+⁃	Search bar in centre of navbar which will allow customers to search for keywords found in product names or descriptions.
+⁃	Right hand logos will feature links to my account pages and cart page.
+⁃	My account when logged in as superuser will dropdown links to product admin, help admin, my profile and logout.
+⁃	My account when logged in as user will dropdown links to my profile and logout.
+⁃	My account when not logged in will dropdown links to register and login.
+⁃	In tablet view or smaller, all links will be contained in a burger dropdown icon on the right side and the search bar will be below the navbar full width.
 
 **Footer**
 
-	⁃	All page will contain the same footer.
-	⁃	Social media links in center, to Facebook, Instagram and Twitter.
-	⁃	Link to contact us page on right.
-	⁃	Journal page which is an inspirational blog with helpful tips.
+- All page will contain the same footer.
+- Social media links in center, to Facebook, Instagram and Twitter.
+- Link to contact us page on right.
+- Journal page which is an inspirational blog with helpful tips.
 
 **Home Page**
 
-	⁃	A full height and width background art wall image.	
-	⁃	A central elevator pitch &quot;Get inspired and discover our collections now&quot; and below &quot;Explore&quot;.
+- A full height and width background art wall image.	
+- A central elevator pitch "Get inspired and discover our collections now" and below "Explore".
 
 **Product Pages**
 
-	⁃	Displaying all products or a specific products from each category.
-	⁃	Title squares informing what products are displaying.	
-	⁃	On the left will display the number of products displaying.	
-	⁃	On the right will be a dropdown menu for the user to sort products by:	
-	⁃	Price (low to high)	
-	⁃	Price (high to low)	
-	⁃	Name (A-Z)	
-	⁃	Name (Z-A)	
-	⁃	Rating (high to low)	
-	⁃	Rating (low to high)	
-	⁃	Below will display a grid containing each product. The grid will display 3 items on each row on tablet or larger and 1 item per row on mobile.	
-	⁃	Each item will display the product image, product name, product price and a button to view further details of the item.	
-	⁃	An edit and delete link will be shown for superusers, edit link will take the superuser to the edit product page and delete will remove the item.	
-	⁃	At the bottom right a return to top circular button.
+- Displaying all products or a specific products from each category.
+- Title squares informing what products are displaying.	
+- On the left will display the number of products d- laying.	
+- On the right will be a dropdown menu for the user to sort products by:	
+- Price (low to high)	
+- Price (high to low)	
+- Name (A-Z)	
+- Name (Z-A)	
+- Rating (high to low)	
+- Rating (low to high)	
+- Below will display a grid containing each product. The grid will display 3 items on each row on tablet or larger and 1 item per row on mobile.	
+- Each item will display the product image, product name, product price and a button to view further details of the item.	
+- An edit and delete link will be shown for superusers, edit link will take the superuser to the edit product page and delete will remove the item.	
+- At the bottom right a return to top circular button.
 		
 **Registering And Authentication**
 
-	⁃	The site uses the Django allauth pages for registering and authentication.
+- The site uses the Django allauth pages for registering and authentication.
 
 **Product Detail Page**
 
-	⁃	Will display a larger product image on the left and information on the right, and in mobile view product image at the top and below the product information.
-	⁃	Product information will include title with the name of the product, product price, product description, product dimensions available in a dropdown box, delivery cost, a form to increment / reduce quantity and buttons to &quot;add to cart&quot; and &quot;keep shopping&quot;.
-	⁃	For super users below the title links will display for superusers, edit link will take the superuser to the edit product page and delete will remove the item.
+- Will display a larger product image on the left and information on the right, and in mobile view product image at the top and below the product information.
+- Product information will include title with the name of the product, product price, product description, product dimensions available in a dropdown box, delivery cost, a form to increment / reduce quantity and buttons to `add to cart` and `keep shopping&`.
+- For super users below the title links will display for superusers, edit link will take the superuser to the edit product page and delete will remove the item.
 
 **Profile Page**
 
-	⁃	Profile page will only be accessible for logged in users.
-	⁃	Will display the central heading &quot;My Profile&quot;.
-	⁃	Subheading below displaying &quot;Delivery Information&quot;
-	⁃	Below will be a central Django crispy form, which will be prefilled if the user has ticked the &quot;save this information to my profile&quot; checkbox on the checkout page. The form will contain:
-	⁃	Phone number	
-	⁃	Street address 1	
-	⁃	Street address 2	
-	⁃	Town or city	
-	⁃	County	
-	⁃	Postcode	
-	⁃	Country (dropdown)
-	⁃	Centered button &quot;Update information&quot;
-	⁃	Suheading &quot;Order history&quot;
-	⁃	A table containing the users previous orders.
-	⁃	The columns for the table will be order number, date, items and order total.
+- Profile page will only be accessible for logged in users.
+- Will display the central heading 'My Profile".
+- Subheading below displaying "Delivery Information"
+- Below will be a central Django crispy form, which will be prefilled if the user has ticked the "save this information to my profile" checkbox on the checkout page. The form will contain:
+- Phone number	
+- Street address 1	
+- Street address 2	
+- Town or city	
+- County	
+- Postcode	
+- Country (dropdown)
+- Centered button "Update information"
+- Suheading "Order history"
+- A table containing the users previous orders.
+- The columns for the table will be order number, date, items and order total.
 
 **Shoppingcart Page**
 
-	⁃	Displaying all products that have been added to cart.
+- Displaying all products that have been added to cart.
 	⁃	
-	⁃	Centered title &quot;Shopping Cart&quot;
-	⁃	A table containing the users products added to cart.	
-	⁃	The columns for the table will be product info, price, quantity and total.	
-	⁃	Product info will contain the product name and image.
-	⁃	Quantity will be a form to increment / reduce quantity.
-	⁃	Total will be product price multiplied by quantity.	
-	⁃	At the bottom of the table will be delivery (calculated using delivery policy)
-	⁃	A link to the delivery policy on the help centre page.	
-	⁃	Subtotal which will be total of all the items plus delivery cost.	
-	⁃	Grand total will be delivery plus subtotal.	
-	⁃	Below buttons to &quot;keep shopping&quot; and to &quot;secure checkout&quot;
-	⁃	If there are no items in the cart, a subheading will display &quot;Your cart is empty&quot; and a &quot;keep shopping&quot; button.
+- Centered title "Shopping Cart"
+- A table containing the users products added to cart.	
+- The columns for the table will be product info, price, quantity and total.	
+- Product info will contain the product name and image.
+- Quantity will be a form to increment / reduce quantity.
+- Total will be product price multiplied by quantity.	
+- At the bottom of the table will be delivery (calculated using delivery policy)
+- A link to the delivery policy on the help centre page.	
+- Subtotal which will be total of all the items plus delivery cost.	
+- Grand total will be delivery plus subtotal.	
+- Below buttons to "keep shopping&" and to "secure checkout".
+- If there are no items in the cart, a subheading will display 'Your cart is empty' and a 'keep shopping' button.
 
 **Checkout**
 
-	⁃	Centered title &quot;Checkout&quot;
-	⁃	If the user is not registered or logged in, &quot;Register / Login&quot; will display and buttons to link to register and log in pages.
-	⁃	In laptop and tablet delivery information will be a left column and order summary on the right.
-	⁃	In mobile view Order summary will display above delivery information.
-	⁃	Delivery information will be form with a subheading &quot;Details&quot; and containing name and email address and below a crispy form with the heading &quot;Delivery&quot; and the fields:
-	⁃	Phone number
-	⁃	Street address 1	
-	⁃	Street address 2
-	⁃	Town or city
-	⁃	County
-	⁃	Postcode	
-	⁃	Country (dropdown)	
-	⁃	If the user is a logged in user, at the bottom of the form will display &quot;Save this delivery information to my profile&quot; with a checkbox, when the user ticks the checkbox the delivery information will be saved to their profile.
-	⁃	Below a stripe payment field will display a button to &quot;adjust cart&quot;, which will take user back to cart page and &quot;Complete order&quot; which will send payment to stripe.	
-	⁃	Below buttons will display &quot;Your card will be charged (amount)&quot;	
-	⁃	The order summary will display subheading of &quot;Order Summary&quot; and will display the information:	
-	⁃	Product image	
-	⁃	Product name
-	⁃	Quantity
-	⁃	Item total	
-	⁃	Subtotal	
-	⁃	Delivery	
-	⁃	Grandtotal
+- Centered title 'Checkout'
+- If the user is not registered or logged in, 'Register / Login' will display and buttons to link to register and log in pages.
+- In laptop and tablet delivery information will be a left column and order summary on the right.
+- In mobile view Order summary will display above delivery information.
+- Delivery information will be form with a subheading &'Details' and containing name and email address and below a crispy form with the heading 'Delivery' and the fields:
+- Phone number
+- Street address 1	
+- Street address 2
+- Town or city
+- County
+- Postcode	
+- Country (dropdown)	
+- If the user is a logged in user, at the bottom of the form will display 'Save this delivery information to my profile' with a checkbox, when the user ticks the checkbox the delivery information will be saved to their profile.
+- Below a stripe payment field will display a button to 'adjust cart', which will take user back to cart page and 'Complete order' which will send payment to stripe.	
+- Below buttons will display 'Your card will be charged (amount)'	
+- The order summary will display subheading of 'Order Summary and will display the information:	
+- Product image	
+- Product name
+- Quantity
+- Item total	
+- Subtotal	
+- Delivery	
+- Grandtotal
 	
 **Admin Add / Edit Products**
 
-	⁃	Add / Edit product page will be the same layout. and close in style to the checkout page as well.
-	⁃	Only accessible as superuser.	
-	⁃	Will edit or add products that user enter into form.	
-	⁃	Centered title &quot;Product Administration&quot;	
-	⁃	Subheading Add / Edit Product	
-	⁃	Central form containing:	
-	⁃	Sku
-	⁃	Name	
-	⁃	Description	
-	⁃	Price
-	⁃	Size in dropdown box	
-	⁃	Image
-	⁃	Edit page will display the current image.
-	⁃	Both will display a button to &quot;Select Image&quot;.
-	⁃	Edit page with display central buttons &quot;Cancel&quot; and &quot;Update&quot;
-	⁃	Add page with display central buttons &quot;Cancel&quot; and &quot;Add Product&quot;
+- Add / Edit product page will be the same layout. and close in style to the checkout page as well.
+- Only accessible as superuser.	
+- Will edit or add products that user enter into form.	
+- Centered title Product Administration	
+- Subheading Add / Edit Product	
+- Central form containing:	
+- Sku
+- Name	
+- Description	
+- Price
+- Size in dropdown box	
+- Image
+- Edit page will display the current image.
+- Both will display a button to 'Select Image.'
+- Edit page with display central buttons 'Cancel' and 'Update'
+- Add page with display central buttons 'Cancel' and 'Add Product'
 	
 **Toasts**
 
-	⁃	Toast messages will appear on the top right when the user completes different actions in the categories: info, warning, success and error.
+- Toast messages will appear on the top right when the user completes different actions in the categories: info, warning, success and error.
 
 Features left to implement:
 
@@ -272,34 +272,32 @@ A pop up model for superuser when deleting products to make sure products arent 
 
 **Languages**
 
-	⁃	HTML: for the site structure.	
-	⁃	CSS: for adding styles to the website.	
-	⁃	Javascript: to add the website interactive features.
-	⁃	Python: to handle the backend functionality.
+- HTML: for the site structure.	
+- CSS: for adding styles to the website.	
+- Javascript: to add the website interactive features.
+- Python: to handle the backend functionality.
 	
 **Libraries and Frameworks**
 
-	⁃	Django
-	⁃	Bootstrap
-	⁃	Jquery
-
+- Django
+- Bootstrap
+- Jquery
 **Databases and Storage**
 
-	⁃	SQLite3: for development.
-	⁃	PostgresSQL: for deployed website.
-	⁃	AWS: for storing static files.
+- SQLite3: for development.
+- PostgresSQL: for deployed website.
+- AWS: for storing static files.
 
 **Payments**
 
-	⁃	Stripe: Used to handle the payments at checkout.
+ - Stripe: Used to handle the payments at checkout.
 
 **IDE and Hosting**
 
-	⁃	Gitpod: Used as IDE environment.
-	⁃	Git: Used for version control.
-	⁃	Github: Used for version control and repository hosting.
-
-Heroku: Used to host live website.
+- Gitpod: Used as IDE environment.
+- Git: Used for version control.
+- Github: Used for version control and repository hosting.
+- Heroku: Used to host live website.
 
 **Tools**
 
@@ -349,7 +347,7 @@ You will need to be signed up to the following services:
 
 1. Login to GitHub.com.
 2. Open monanorremo/pace-posters.
-3. Click &quot;Code&quot; then under &quot;Clone&quot; copy the link with the HTTPS URL.
+3. Click 'Code' then under 'Clone' copy the link with the HTTPS URL.
 4. Go to the terminal in your IDE environment.
 5. Change the working directory to where you want the clone to be saved by typing `cd` and the name of the directory.
 6. Type `git clone` and paste the copied HTTPS URL.
@@ -366,7 +364,7 @@ when pushing to gitHub.
 - os.environ[`DEVELOPMENT`] = `True`
 - os.environ[`SECRET\_KEY`] = `Your Secret key`
 - os.environ[`STRIPE\_PUBLIC\_KEY`] = `Your Stripe Public key`
-- os.environ[`STRIPE\_SECRET\_KEY&quot`] = `Your Stripe Secret key`
+- os.environ[`STRIPE\_SECRET\_KEY`] = `Your Stripe Secret key`
 - os.environ[`STRIPE\_WH\_SECRET`] = `Your Stripe WH\_Secret key`
 
 6. Create the database from the models by typing in the terminal `python3 manage.py makemigrations`. Followed by
@@ -377,9 +375,9 @@ when pushing to gitHub.
 
 ### Heroku Deployment**
 
-1. After logging in to Heroku, select &quot;Create New App&quot; Choose the region closest to you and select `Create app&quot`.
+1. After logging in to Heroku, select `Create New App` Choose the region closest to you and select `Create app`.
 2. On the resources tab, to provision the database in the add on field search for and select `Heroku Postgres`.
-3. A pop up should appear and under `Plan name` use `Hobby Dev-Free` and select &quot;Provision&quot;.
+3. A pop up should appear and under `Plan name` use `Hobby Dev-Free` and select `Provision`.
 4. Go to your IDE and type `pip3 install dj_database_url` and `pip3 install psycopg2-binary` as these need to be
 installed to use Postgres. Also `pip install gunicorn` for the webserver.
 5. To make sure Heroku installs all of the apps when deployed save the requirements by typing in the terminal
