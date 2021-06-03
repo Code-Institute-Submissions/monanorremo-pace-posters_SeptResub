@@ -28,7 +28,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title }}</h5>
                         <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
-                        <p class="card-text">{{post.content|slice:":200" }}</p>
+                        <p class="card-text">{{post.content|slice:":100" }}</p>
                         <a href="{% url 'post_detail' post.pk  %}"
                             class="btn btn-black btn-outline-white rounded-0 text-uppercase">Read More &rarr;</a>
                         {% if request.user.is_superuser %}
