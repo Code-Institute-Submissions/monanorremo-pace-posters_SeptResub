@@ -91,21 +91,21 @@ All the icons used in this app are from the newly extended Bootsrtrap Icons, Sho
 
 Features Included:
 
-• Navbar included on all pages.
-• On the left side is the Pace Posters Logo, in desktop view.
-• On mobile view the menu is behind the hamburger icon where you easily click forward to all the different landing pages.
-• On desktop, you have the categories: All Products with subcategories:by Price, by Rating, by Category, All Products, Posters with subcategories: Animals, Architecture, Botanical &amp; Nature, Colourful, All Posters, Frames with subcategories: Picture Frames, Poster Hangers, All Frames, and Special Offers with subcategories: New Arrivals, Deals, Clearance, All Specials, centrally located on the navbar.
-•	Search bar is centrally located on the top middle in the navbar so thet users can look up what they are looking for.
+- Navbar included on all pages.
+- On the left side is the Pace Posters Logo, in desktop view.
+- On mobile view the menu is behind the hamburger icon where you easily click forward to all the different landing pages.
+- On desktop, you have the categories: All Products with subcategories:by Price, by Rating, by Category, All Products, Posters with subcategories: Animals, Architecture, Botanical &amp; Nature, Colourful, All Posters, Frames with subcategories: Picture Frames, Poster Hangers, All Frames, and Special Offers with subcategories: New Arrivals, Deals, Clearance, All Specials, centrally located on the navbar.
+- Search bar is centrally located on the top middle in the navbar so thet users can look up what they are looking for.
 	
 Based upon the strategy and research, some design features that I aim to include are:
-• Search bar for customers to search for an item that they are looking for.
-• Shop by category which takes the customer to products for a specific category they are looking for.
-• A shopping bag for customers to add their products and see what the total charges will come to.
-• A Special features area for the customers to see if there are any new products, deals, clearance on the site since they last visited.
-• Profile page for customers to save their delivery details and see their previous orders.
-• **Contact** section for customers to query anything which is not covered on the website itself.
-• **Blog** section to inspire and guide the customers to streamline the user experience all the way home.
-• On each product page the ability to sort the products by name (A-Z), price (high to low), rating (high to low) or category (A-Z).
+- Search bar for customers to search for an item that they are looking for.
+- Shop by category which takes the customer to products for a specific category they are looking for.
+- A shopping bag for customers to add their products and see what the total charges will come to.
+- A Special features area for the customers to see if there are any new products, deals, clearance on the site since they last visited.
+- Profile page for customers to save their delivery details and see their previous orders.
+- **Contact** section for customers to query anything which is not covered on the website itself.
+- **Blog** section to inspire and guide the customers to streamline the user experience all the way home.
+- On each product page the ability to sort the products by name (A-Z), price (high to low), rating (high to low) or category (A-Z).
 
 
 ### Structure
@@ -129,16 +129,16 @@ Insert Wireframes
 
 Navbar
 
-⁃	All pages throughout have the navbar for shopper convenience.
-⁃	Pace Posters logo on left side next to all products and shop by category link.
-⁃	All products link will link to all products page.
-⁃	Shop by category will be a full width dropdown with links to categories botanical&amp;nature, colourful, architecture, animals.
-⁃	Search bar in centre of navbar which will allow customers to search for keywords found in product names or descriptions.
-⁃	Right hand logos will feature links to my account pages and cart page.
-⁃	My account when logged in as superuser will dropdown links to product admin, help admin, my profile and logout.
-⁃	My account when logged in as user will dropdown links to my profile and logout.
-⁃	My account when not logged in will dropdown links to register and login.
-⁃	In tablet view or smaller, all links will be contained in a burger dropdown icon on the right side and the search bar will be below the navbar full width.
+- All pages throughout have the navbar for shopper convenience.
+- Pace Posters logo on left side next to all products and shop by category link.
+- All products link will link to all products page.
+- Shop by category will be a full width dropdown with links to categories botanical&amp;nature, colourful, architecture, animals.
+- Search bar in centre of navbar which will allow customers to search for keywords found in product names or descriptions.
+- Right hand logos will feature links to my account pages and cart page.
+- My account when logged in as superuser will dropdown links to product admin, help admin, my profile and logout.
+- My account when logged in as user will dropdown links to my profile and logout.
+- My account when not logged in will dropdown links to register and login.
+- In tablet view or smaller, all links will be contained in a burger dropdown icon on the right side and the search bar will be below the navbar full width.
 
 **Footer**
 
@@ -268,7 +268,7 @@ Features left to implement:
 Contact Us form or users to message any questions or feedback.
 A pop up model for superuser when deleting products to make sure products arent deleted accidentally.
 
-###Technologies Used
+### Technologies Used
 
 **Languages**
 
@@ -282,6 +282,7 @@ A pop up model for superuser when deleting products to make sure products arent 
 - Django
 - Bootstrap
 - Jquery
+
 **Databases and Storage**
 
 - SQLite3: for development.
