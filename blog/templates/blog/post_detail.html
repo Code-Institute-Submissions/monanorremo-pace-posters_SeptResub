@@ -12,6 +12,7 @@
                 <hr>
                 <h2 class="logo-font mb-4">{% block title %} {{ post.title }} {% endblock title %}</h2>
                 <hr>
+                <img src="{{ post.image.url }}" alt="{{ post.title }}">
                 <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
                 <p class="card-text ">{{ post.content | safe }}</p>
             </div>
@@ -21,11 +22,9 @@
                 <a class="text-danger" href="{% url 'delete_post' post.pk %}">Delete</a>
             </small>
             {% endif %}
-            <a href="{% url 'blog' %}"
-                            class="btn btn-black btn-outline-white rounded-0 text-uppercase">Back</a>
+            <a href="{% url 'blog' %}" class="btn btn-black btn-outline-white rounded-0 text-uppercase">Back</a>
         </div>
     </div>
 </div>
 
 {% endblock content %}
-
