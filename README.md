@@ -22,7 +22,7 @@ Live Page  [Pace Posters](https://mno-pace-posters.herokuapp.com/)
 * [Credits](#credits)
 
 
-##Inspiration
+## Inspiration
 
 I chose to build an e-commerce site to see how hard it actually is to create a site that can be descriptive, easy to navigate, user-friendly.
 
@@ -30,9 +30,9 @@ I currently work at a retailer and they launched their e-commerce site in 2016!!
 
 It has been hard, Ive run in to countless issues in the process, but Im so grateful that I am somewhat happy with my result even as an MVP.
 
-##UX - 5 Planes
+## UX - 5 Planes
 
-###Strategy
+### Strategy
 
 A site that lets the products speak for themselves in a minimalistic packaging. Posters in various sizes split up in different categories and frames to match. A shopping site that will satisfy the purchasing needs of shoppers on desktop, tablet or mobile phone devices.
 
