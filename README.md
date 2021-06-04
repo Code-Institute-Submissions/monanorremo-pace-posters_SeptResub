@@ -116,12 +116,14 @@ The site will have a similar layout to the websites Ive researched. With this th
 
 Keeping the layout consistent across all pages to keep a consistent and clean UX.
 
-**Database Schema**[here](read.me files/models.pdf
+**Database Schema** 
+[here](readme_files/models)
 
 
 ### Skeleton
 
-Insert Wireframes
+[Wireframes](readme_files/wireframes)
+
 
 ### Surface 
 
@@ -489,11 +491,11 @@ to use the AWS configuration when deploying to Heroku. Remove the COLLECTSTATIC 
 
 **Images**
 
-Home background image is from [Poster Store](https://posterstore.eu/)
-Blog posts is also from the [Poster Store](https://posterstore.eu/)
-All poster images are from [Unsplash] (https://unsplash.com/)
+Home background image is from [Poster Store](https://posterstore.eu/).
+Blog posts is also from the [Poster Store](https://posterstore.eu/).
+All poster images are from [Unsplash](https://unsplash.com/). 
 
 **Acknowledgements**
 
-• Code Institute Slack Channel for valuable guidance and opinions.
-• Code Institute tutors for assistance in my times of need.
+- Code Institute Slack Channel for valuable guidance and opinions.
+- Code Institute tutors for assistance in my times of need.
