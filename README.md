@@ -482,7 +482,7 @@ to use the AWS configuration when deploying to Heroku. Remove the COLLECTSTATIC 
 
 ## Credits
 
-### Tutorials**
+**Tutorials**
 
 - The site is based on the Boutique Ado Code Institute tutorial project.
 - The blog is based on tutorial from Youtube Codemy.com https://www.youtube.com/watch?v=B40bteAMM\_M
