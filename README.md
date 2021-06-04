@@ -3,6 +3,8 @@
 
 Live Page  [Pace Posters](https://mno-pace-posters.herokuapp.com/)
 
+**Admin** login to see special functionality: Barbara, password: testing!
+
 
 ## Table of Contents
 
