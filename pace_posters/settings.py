@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['mno-pace-posters.herokuapp.com', 'localhost']
 
@@ -52,7 +52,6 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'blog',
- 
     # Other
     'crispy_forms',
     'storages',
@@ -145,8 +144,6 @@ print('postgres db')
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
-
-
 
 
 # Password validation

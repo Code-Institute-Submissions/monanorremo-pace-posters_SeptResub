@@ -5,10 +5,12 @@ from .forms import PostForm
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 
+
 class BlogView(ListView):
     model = Post
     template_name = 'blog/blog.html'
     ordering = ['-created_on']
+
 
 class PostDetailView(DetailView):
     model = Post
@@ -20,11 +22,12 @@ class AddPostView(CreateView):
     form_class = PostForm
     template_name = 'blog/add_post.html'
 
+
 class EditPostView(UpdateView):
     model = Post
     form_class = PostForm
     template_name = 'blog/edit_post.html'
-    
+
 
 class DeletePostView(DeleteView):
     model = Post
