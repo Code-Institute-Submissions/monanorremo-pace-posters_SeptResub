@@ -2,9 +2,7 @@ from django.shortcuts import (
     render, redirect, reverse, HttpResponse, get_object_or_404
     )
 from django.contrib import messages
-
 from products.models import Product
-
 
 
 # Create your views here.
@@ -75,9 +73,10 @@ def adjust_bag(request, item_id):
     if size:
         if quantity > 0:
             bag[item_id]['items_by_size'][size] = quantity
-            messages.success(request, f'No worries we updated {size.upper()} {product.name} quantity \
-                    to {bag[item_id]["items_by_size"][size]}!',
-            )
+            messages.success(request,
+                             (f'No worries we updated '
+                              f'{size.upper()} {product.name} quantity '
+                              f'to {bag[item_id]["items_by_size"][size]}!'))
         else:
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
@@ -90,19 +89,18 @@ def adjust_bag(request, item_id):
     else:
         if quantity > 0:
             bag[item_id] = quantity
-            messages.success(
-            request,
-                f"No worries we \
-                    updated {product.name} quantity to {bag[item_id]}!",
-            )
+            messages.success(request,
+                             (f'No worries we updated '
+                              f'{product.name} quantity '
+                              f'to {bag[item_id]}!'))
         else:
             bag.pop(item_id)
-            messages.success(request, f"Fixed it! We removed {product.name} from your bag!"
-            )
-
+            messages.success(request,
+                             (f'Fixed it! We removed {product.name} '
+                              f'from your bag!'))
+                              
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
-
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
@@ -123,11 +121,14 @@ def remove_from_bag(request, item_id):
             if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
             messages.success(request,
-                f"Fixed it! We removed \
-                    size {size.upper()} {product.name} from your bag!")
+                             (f'Fixed it! We removed '
+                              f'size {size.upper()} {product.name} '
+                              f'from your bag!'))
         else:
             bag.pop(item_id)
-            messages.success(request, f"Fixed it! We removed {product.name} from your bag!")
+            messages.success(request,
+                             (f'Fixed it! We removed {product.name} '
+                              f'from your bag!'))
         
         request.session['bag'] = bag
         return HttpResponse(status=200)
@@ -135,4 +136,3 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
-
