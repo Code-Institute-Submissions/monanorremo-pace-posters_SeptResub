@@ -7,8 +7,8 @@ from .forms import OrderForm
 from .models import Order, OrderLineItem
 
 from products.models import Product
-#from profiles.models import UserProfile
-#from profiles.forms import UserProfileForm
+from profiles.models import UserProfile
+from profiles.forms import UserProfileForm
 from bag.contexts import bag_contents
 
 import stripe
@@ -70,7 +70,7 @@ def checkout(request):
                         order_line_item.save()
                     else:
                         for size, quantity in \
-                            item_data['items_by_size'].items():
+                                item_data['items_by_size'].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -90,7 +90,7 @@ def checkout(request):
             # Save the info to the user's profile if all is well
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success',
-                                     args=[order.order_number]))
+                                    args=[order.order_number]))
         else:
             messages.error(request, 'Something went wrong, there was an error with your form. \
                 Please double check your information.')
@@ -179,10 +179,3 @@ def checkout_success(request, order_number):
 
     if 'bag' in request.session:
         del request.session['bag']
-
-    template = 'checkout/checkout_success.html'
-    context = {
-        'order': order,
-    }
-
-    return render(request, template, context)
