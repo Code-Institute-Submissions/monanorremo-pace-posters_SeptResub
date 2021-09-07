@@ -73,6 +73,8 @@ As a Store Owner:
 	2.	I want to be able to delete products.
 	3.	I want to be able to edit products.
 	4.	View shoppers shopping patterns.
+  5.  I want to facilitate for my customers to easily get in touch with us. 
+  6.  I want to inpire my customers with blog posts to help them envison their own spaces and also Inspire them in what can be done. 
 
 ### Scope
 
