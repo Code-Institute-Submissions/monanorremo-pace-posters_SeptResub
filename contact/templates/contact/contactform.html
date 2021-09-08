@@ -24,6 +24,7 @@
         </div>
     </div>
     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+        {% csrf_token %}
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">

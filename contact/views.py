@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.core.mail import send_mail
 
+
 # Create your views here.
 
 
@@ -18,6 +19,6 @@ def contactform(request):
             message_email,  # from email
             ['paceposters1@gmail.com'],  # to email
             )
-        return render(request, 'contactform.html', {'message_name'})
+        return render(request, 'contact/contactform.html')
     else:
-        return render(request, 'contactform.html', {})
+        return render(request, 'contact/contactform.html')
