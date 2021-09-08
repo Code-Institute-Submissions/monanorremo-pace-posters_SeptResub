@@ -17,3 +17,7 @@
 #map {
     filter: grayscale(80%);
 }
+
+.icon-background {
+    color: #dcad92;
+}
