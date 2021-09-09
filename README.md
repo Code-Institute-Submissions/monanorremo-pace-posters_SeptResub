@@ -20,6 +20,7 @@ Live Page  [Pace Posters](https://mno-pace-posters.herokuapp.com/)
 * [Surface](#surface)
    * [Existing Features](#existing-features)
 * [Technologies Used](#technologies-used)
+* [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -332,6 +333,10 @@ For validating Python code.
 
 - [Favicon.io](favicon.io/) - For creation and implementation of favicon.
 
+## Testing
+
+[Testing](readme_files/testing.md)
+
 ## Deployment
 
 ### Installation Prerequisites
@@ -492,6 +497,7 @@ to use the AWS configuration when deploying to Heroku. Remove the COLLECTSTATIC 
 
 - The site is based on the Boutique Ado Code Institute tutorial project.
 - The blog is based on tutorial from Youtube Codemy.com https://www.youtube.com/watch?v=B40bteAMM\_M
+- The contact page is based on tutorial from Youtube Codemy.com https://youtu.be/w4ilq6Zk-08
 
 **Images**
 
@@ -503,3 +509,5 @@ All poster images are from [Unsplash](https://unsplash.com/).
 
 - Code Institute Slack Channel for valuable guidance and opinions.
 - Code Institute tutors for assistance in my times of need.
+
+**Back to [Top](README.md)**
