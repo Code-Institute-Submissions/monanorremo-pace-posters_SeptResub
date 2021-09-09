@@ -9,23 +9,23 @@ Live Page  [Pace Posters](https://mno-pace-posters.herokuapp.com/)
 ## Table of Contents
 
 * [Inspiration](#inspiration)
-* [UX - 5 Planes](#ux——5-planes)
+* [UX - 5 Planes](#ux_5_planes)
   * [The Strategy](#strategy)
-    * [User Stories](#user-stories) 
+    * [User Stories](#user_stories) 
   * [Scope](#scope)
   * [Structure](#structure)
-	* [Database Schema](#database-schema)
+	* [Database Schema](#database_schema)
   * [Skeleton](#skeleton)
     * [Wireframes](#wireframes)
 * [Surface](#surface)
-   * [Existing Features](#existing-features)
-* [Technologies Used](#technologies-used)
+   * [Existing Features](#existing_features)
+* [Technologies Used](#technologies_used)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
 
-## Inspiration
+## Inspiration <a name="inspiration"></a
 
 I chose to build an e-commerce site to see how hard it actually is to create a site that can be descriptive, easy to navigate, user-friendly.
 
@@ -33,9 +33,9 @@ I currently work at a retailer and they launched their e-commerce site in 2016!!
 
 It has been hard, Ive run in to countless issues in the process, but Im so grateful that I am somewhat happy with my result even as an MVP.
 
-## UX - 5 Planes
+## UX - 5 Planes <a name="ux_5_planes"></a
 
-### Strategy
+### Strategy <a name="strategy"></a
 
 A site that lets the products speak for themselves in a minimalistic packaging. Posters in various sizes split up in different categories and frames to match. A shopping site that will satisfy the purchasing needs of shoppers on desktop, tablet or mobile phone devices.
 
@@ -43,7 +43,7 @@ Posters are best bought from an e-commerce site, as a shopper you are at home an
 
 For the e-commerce site owner and staff the admin section will make it easy to update, add and delete products. The Django admin site makes it easy for the super user to get an overview of the site. products, details, registerred customers, what&#39;s trending on the set etc.
 
-### User-Stories
+### User-Stories <a name="user_stories"></a
 
 As a shopper:
 
@@ -77,7 +77,7 @@ As a Store Owner:
   5.  I want to facilitate for my customers to easily get in touch with us. 
   6.  I want to inpire my customers with blog posts to help them envison their own spaces and also Inspire them in what can be done. 
 
-### Scope
+### Scope <a name="scope"></a
 
 When designing the page, I wanted for the user to have a clear and positive experience and for the web-site to be easy to use. User can navigate through the navigation bar that is always visible on desktop and mobile and by links in the footer. They can go from any part of the web-site to any other part. Simple to navigate and intuitive.
 
@@ -113,7 +113,7 @@ Based upon the strategy and research, some design features that I aim to include
 - On each product page the ability to sort the products by name (A-Z), price (high to low), rating (high to low) or category (A-Z).
 
 
-### Structure
+### Structure <a name="structure"></a
 
 The site will be structured in a linear grid format, which will match up nicely with the recurring rectangles of the posters and frames.
 
@@ -121,18 +121,18 @@ The site will have a similar layout to the websites Ive researched. With this th
 
 Keeping the layout consistent across all pages to keep a consistent and clean UX.
 
-**Database Schema** 
-[here](readme_files/models)
+**Database Schema** <a name="database_schema"></a 
+[here](/readme_files/models)
 
 
-### Skeleton
+### Skeleton <a name="skeleton"></a
 
-[Wireframes](readme_files/wireframes)
+[Wireframes](/readme_files/wireframes)
 
 
-### Surface 
+### Surface <a name="surface"></a 
 
-#### Existing Features
+#### Existing Features <a name="existing_features"></a
 
 Navbar
 
@@ -272,10 +272,10 @@ Navbar
 
 Features left to implement:
 
-Contact Us form or users to message any questions or feedback.
+A like blog post counter. 
 A pop up model for superuser when deleting products to make sure products arent deleted accidentally.
 
-### Technologies Used
+### Technologies Used <a name="technologies_used"></a
 
 **Languages**
 
@@ -333,11 +333,11 @@ For validating Python code.
 
 - [Favicon.io](favicon.io/) - For creation and implementation of favicon.
 
-## Testing
+## Testing <a name="testing"></a
 
 [Testing](readme_files/testing.md)
 
-## Deployment
+## Deployment <a name="deployment"></a
 
 ### Installation Prerequisites
 
@@ -491,7 +491,7 @@ MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 to use the AWS configuration when deploying to Heroku. Remove the COLLECTSTATIC variable.
 20. Push all the changes to Github. Which will trigger an automatic deployment to Heroku.
 
-## Credits
+## Credits <a name="credits"></a
 
 **Tutorials**
 
