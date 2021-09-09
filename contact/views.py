@@ -19,6 +19,6 @@ def contactform(request):
             message_email,  # from email
             ['paceposters1@gmail.com'],  # to email
             )
-        return render(request, 'contact/contactform.html')
+        return render(request, 'contact/contactform.html', {'message_name': message_name})
     else:
         return render(request, 'contact/contactform.html')

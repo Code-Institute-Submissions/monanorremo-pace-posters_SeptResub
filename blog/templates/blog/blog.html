@@ -16,6 +16,9 @@
         <div class="col">
             <hr>
             <h2 class="logo-font mb-4">Journal</h2>
+            <!--{% if request.user.is_superuser %}-->
+            <a style="justify-content: right;" href="{% url 'add_post' %}">Add Post</a>
+            <!--{% endif %}-->
             <hr>
         </div>
     </div>

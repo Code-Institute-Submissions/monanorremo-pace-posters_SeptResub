@@ -12,9 +12,29 @@
                 <hr>
                 <h2 class="logo-font mb-4">{% block title %} {{ post.title }} {% endblock title %}</h2>
                 <hr>
-                <img src="{{ post.image.url }}" alt="{{ post.title }}">
-                <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
+                <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                <p class="text-muted">{{ post.author }} | {{ post.created_on }}</p>
                 <p class="card-text ">{{ post.content | safe }}</p>
+                <br>
+                <hr>
+                <p class="card-text ">
+                    <h6>Comments</h6>
+                </p>
+                <hr>
+                {% if not post.comments.all %}
+                <p class="card-text">No Comments Yet!
+                <p class="card-text"><a href="{% url 'add_comment' post.pk %}">Add Comment</a></p>
+                {% else %}
+                <a href="{% url 'add_comment' post.pk %}">Add Comment</a>
+                <br><br>
+                {% for comment in post.comments.all %}
+                <p class="text-muted">{{ comment.name }} | {{ comment.date_added }}</p>
+                <p class="card-text">{{ comment.body }}</p>
+                <hr>
+                {% endfor %}
+                <a href="{% url 'add_comment' post.pk %}">Add Comment</a>
+                <br><br>
+                {% endif %}
             </div>
             {% if request.user.is_superuser %}
             <small class="ml-3">

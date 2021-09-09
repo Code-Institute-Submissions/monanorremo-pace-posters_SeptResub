@@ -349,10 +349,6 @@ input[name='q']::placeholder {
     filter: grayscale(80%);
 }
 
-.icon-background {
-    color: #dcad92;
-}
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
