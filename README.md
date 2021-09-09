@@ -25,7 +25,7 @@ Live Page  [Pace Posters](https://mno-pace-posters.herokuapp.com/)
 * [Credits](#credits)
 
 
-## Inspiration <a name="inspiration"></a
+## Inspiration <a name="inspiration">
 
 I chose to build an e-commerce site to see how hard it actually is to create a site that can be descriptive, easy to navigate, user-friendly.
 
@@ -33,9 +33,9 @@ I currently work at a retailer and they launched their e-commerce site in 2016!!
 
 It has been hard, Ive run in to countless issues in the process, but Im so grateful that I am somewhat happy with my result even as an MVP.
 
-## UX - 5 Planes <a name="ux_5_planes"></a
+## UX - 5 Planes <a name="ux_5_planes">
 
-### Strategy <a name="strategy"></a
+### Strategy <a name="strategy">
 
 A site that lets the products speak for themselves in a minimalistic packaging. Posters in various sizes split up in different categories and frames to match. A shopping site that will satisfy the purchasing needs of shoppers on desktop, tablet or mobile phone devices.
 
@@ -43,7 +43,7 @@ Posters are best bought from an e-commerce site, as a shopper you are at home an
 
 For the e-commerce site owner and staff the admin section will make it easy to update, add and delete products. The Django admin site makes it easy for the super user to get an overview of the site. products, details, registerred customers, what&#39;s trending on the set etc.
 
-### User-Stories <a name="user_stories"></a
+### User-Stories <a name="user_stories">
 
 As a shopper:
 
@@ -77,7 +77,7 @@ As a Store Owner:
   5.  I want to facilitate for my customers to easily get in touch with us. 
   6.  I want to inpire my customers with blog posts to help them envison their own spaces and also Inspire them in what can be done. 
 
-### Scope <a name="scope"></a
+### Scope <a name="scope">
 
 When designing the page, I wanted for the user to have a clear and positive experience and for the web-site to be easy to use. User can navigate through the navigation bar that is always visible on desktop and mobile and by links in the footer. They can go from any part of the web-site to any other part. Simple to navigate and intuitive.
 
@@ -113,7 +113,7 @@ Based upon the strategy and research, some design features that I aim to include
 - On each product page the ability to sort the products by name (A-Z), price (high to low), rating (high to low) or category (A-Z).
 
 
-### Structure <a name="structure"></a
+### Structure <a name="structure">
 
 The site will be structured in a linear grid format, which will match up nicely with the recurring rectangles of the posters and frames.
 
@@ -121,18 +121,18 @@ The site will have a similar layout to the websites Ive researched. With this th
 
 Keeping the layout consistent across all pages to keep a consistent and clean UX.
 
-**Database Schema** <a name="database_schema"></a 
+**Database Schema** <a name="database_schema">
 [here](/readme_files/models)
 
 
-### Skeleton <a name="skeleton"></a
+### Skeleton <a name="skeleton">
 
 [Wireframes](/readme_files/wireframes)
 
 
-### Surface <a name="surface"></a 
+### Surface <a name="surface">
 
-#### Existing Features <a name="existing_features"></a
+#### Existing Features <a name="existing_features">
 
 Navbar
 
@@ -183,7 +183,7 @@ Navbar
 **Product Detail Page**
 
 - Will display a larger product image on the left and information on the right, and in mobile view product image at the top and below the product information.
-- Product information will include title with the name of the product, product price, product description, product dimensions available in a dropdown box, delivery cost, a form to increment / reduce quantity and buttons to `add to cart` and `keep shopping&`.
+- Product information will include title with the name of the product, product price, product description, product dimensions available in a dropdown box, delivery cost, a form to increment / reduce quantity and buttons to `add to cart` and `keep shopping`.
 - For super users below the title links will display for superusers, edit link will take the superuser to the edit product page and delete will remove the item.
 
 **Profile Page**
@@ -275,7 +275,7 @@ Features left to implement:
 A like blog post counter. 
 A pop up model for superuser when deleting products to make sure products arent deleted accidentally.
 
-### Technologies Used <a name="technologies_used"></a
+### Technologies Used <a name="technologies_used">
 
 **Languages**
 
@@ -333,11 +333,11 @@ For validating Python code.
 
 - [Favicon.io](favicon.io/) - For creation and implementation of favicon.
 
-## Testing <a name="testing"></a
+## Testing <a name="testing">
 
 [Testing](readme_files/testing.md)
 
-## Deployment <a name="deployment"></a
+## Deployment <a name="deployment">
 
 ### Installation Prerequisites
 
@@ -491,7 +491,7 @@ MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 to use the AWS configuration when deploying to Heroku. Remove the COLLECTSTATIC variable.
 20. Push all the changes to Github. Which will trigger an automatic deployment to Heroku.
 
-## Credits <a name="credits"></a
+## Credits <a name="credits">
 
 **Tutorials**
 

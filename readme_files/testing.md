@@ -19,7 +19,7 @@
 
 ****
 
-## Responsiveness <a name="responsiveness"></a
+## Responsiveness <a name="responsiveness">
 
 ![responsivness](/readme_files/AmIResponsive.png "Am I Responsive")
 
@@ -34,9 +34,9 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Watching on desktop device up to 2k | All in order, no distortion             | As expected        | P             |
 
 
-## General <a name="general"></a
+## General <a name="general">
 
-### Navigation <a name="navigation"></a
+### Navigation <a name="navigation">
 
 | **Functionality**                                                 | **Anticipated Outcome**                                   | **Actual Outcome** | **Pass/Fail** |
 |-------------------------------------------------------------------|-----------------------------------------------------------|--------------------|---------------|
@@ -47,14 +47,14 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Clicking on Shopping bag Icon                                     | Shopping bag opens and shows current selection            | As expected        | P             |
 
 
-### Top of Page (only mobile and tablet devices) <a name="top_of_page"></a
+### Top of Page (only mobile and tablet devices) <a name="top_of_page">
 
 | **Functionality**            | **Anticipated Outcome**       | **Actual Outcome** | **Pass/Fail** |
 |------------------------------|-------------------------------|--------------------|---------------|
 | Clicking on Go to Top button | Scrolls up to top of the page | As Expected        | P             |
 
 
-### Footer <a name="footer"></a
+### Footer <a name="footer">
 
 | **Functionality**          | **Anticipated Outcome**                 | **Actual Outcome** | **Pass/Fail** |
 |----------------------------|-----------------------------------------|--------------------|---------------|
@@ -66,14 +66,14 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Clicking on YouTube icon   | Opens YouTube website in new tab        | As expected        | P             |
 
 
-## Home<a name="home"></a
+## Home<a name="home">
 
 | **Functionality**          | **Anticipated Outcome** | **Actual Outcome** | **Pass/Fail** |
 |----------------------------|-------------------------|--------------------|---------------|
 | Clicking on Explore button | Opens the Products page | As expected        | P             |
 
 
-## Products<a name="products"></a
+## Products<a name="products">
 
 | **Functionality**                                                          | **Anticipated Outcome**                                                                                | **Actual Outcome** | **Pass/Fail** |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------|---------------|
@@ -82,7 +82,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | On detail page selecting the number to purchase  and clicking "Add to Bag" | Adds the selected quantity of the item to cart and then opens a toast where you see your shopping cart | As Expected        | P             |
 
 
-## Shopping Bag & Checkout <a name="bag_checkout"></a
+## Shopping Bag & Checkout <a name="bag_checkout">
 
 | **Functionality**                               | **Anticipated Outcome**                                                          | **Actual Outcome** | **Pass/Fail** |
 |-------------------------------------------------|----------------------------------------------------------------------------------|--------------------|---------------|
@@ -98,7 +98,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Complete Order button       | Gives you a success message that order is completed and an email has been sent    | As Expected        | P             |
 
 
-## Account <a name="account"></a
+## Account <a name="account">
 
 ### Registration & Login <a name="registration_login"></a
 
@@ -110,7 +110,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Clicking on Logout button                              | Logs out user and rdirects to index page                                                                                        | As expected        | P             |
 
 
-### Profile & Order History <a name="profile_orderhistory"></a
+### Profile & Order History <a name="profile_orderhistory">
 
 | **Functionality**               | **Anticipated Outcome**                                 | **Actual Outcome** | **Pass/Fail** |
 |---------------------------------|---------------------------------------------------------|--------------------|---------------|
@@ -118,7 +118,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Clicking on Update button       | Saves changes to profile and redirects to Profile  page | As Expected        | P             |
 | Show order history              | Shows user's previous orders with all information       | As Expected        | P             |
 
-### Product Management <a name="product_management"></a
+### Product Management <a name="product_management">
 
 | **Functionality**                                                           | **Anticipated Outcome**                                                                                              | **Actual Outcome** | **Pass/Fail** |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------|---------------|
@@ -126,7 +126,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Clicking on Edit                                                            | Form with prefilled current description and SKU, can be edited with new info and then saved on Update product button | As Expected        | P             |
 | Clicking on Delete                                                          | Form with question if you are sure you want to delete                                                                | As Expected        | P             |
 
-## Blog <a name="blog"></a
+## Blog <a name="blog">
 
 | **Functionality**                                        | **Anticipated Outcome**                                                                      | **Actual Outcome** | **Pass/Fail** |
 |----------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------|---------------|
@@ -134,7 +134,7 @@ I tested the site on various browsers such as Google Chrome, Mozilla Firefox and
 | Click on Add Comment                                     | Shows a new page with comment form                                                           | As Expected        | P             |
 | Clicking on Edit and Delete buttons (only for superuser) | Shows a Edit Post form or Delete page where you are asked again to verify you want to delete | As Expected        | P             |
 
-## Contact <a name="contact"></a
+## Contact <a name="contact">
 
 | **Functionality**                                 | **Anticipated Outcome**                                                     | **Actual Outcome** | **Pass/Fail** |
 |---------------------------------------------------|-----------------------------------------------------------------------------|--------------------|---------------|
